@@ -1,24 +1,23 @@
 {
     "name": "hpbframework/zend-db",
-    "version": "1.0.0",
-    "type": "library",
     "description": "Update Zend-db to use clauses Limit and Offset with FirebirdSQL",
-    "keywords": ["Firebird", "Zend-DB", "zf3"],
+    "type": "library",
     "license": "BSD-3-Clause",
+    "keywords": ["Firebird", "Zend-DB", "zf3"],
+    "version": "1.0.0",
     "authors": [
         {
             "name": "Cyril Chable",
-            "email": "cchable@spfb.brusssels"
+            "email": "cchable@spfb.brussels"
         }
     ],
+    "minimum-stability": "dev",
     "require": {
-
-        "php": ">=7.3.0",
-        "zendframework/zend-db": "^2.9"
+      "php": "^5.6 || ^7.0",
+      "zendframework/zend-db": "^2.9"
     },
     "autoload": {
-        "psr-4": {
+        "psr-0": {
             "Hpbframework\\Zend-Db": "src/"
         }
-    }
 }
